@@ -1,0 +1,9 @@
+.header {
+   background: url('https://www.cbar.az/pictures/top_img.png') top center/contain no-repeat ;
+   height: 150px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+

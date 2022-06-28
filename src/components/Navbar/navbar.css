@@ -1,0 +1,33 @@
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+.navbar__left {
+   color: white;
+   font-weight: 900;
+   font-size: 30px;
+   cursor: pointer;
+}
+.navbar__right {
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+}
+.navbarItem {
+   cursor: pointer;
+   color: white;
+   text-decoration: none;
+   font-weight: 700;
+   color: white;
+   font-size: 14px;
+   transition: all 0.2s;
+}
+.navbarItem:hover {
+   color: white;
+   transform: scale(0.98);
+}
+.navDesc {
+   font-size: 10px;
+   width: 200px;
+}
